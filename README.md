@@ -1,46 +1,37 @@
-# Astro Starter Kit: Basics
+# Antycopyrecord | Urban Music Production Studio
 
-```sh
-npm create astro@latest -- --template basics
-```
+Landing page profesional para **Antycopyrecord**, un sello casero y estudio de producción musical basado en Caldera, Chile.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Estrategia: "Premium Results, Authentic Roots"
+El sitio proyecta una dualidad estratégica:
+- **Resultados Premium**: Calidad de audio nivel industria, mezcla y masterización competitiva.
+- **Raíces Auténticas**: Identidad "Sello Casero" y "Underground", conectando con la esencia real de la calle.
 
-## 🚀 Project Structure
+## 🛠️ Tech Stack
+- **Framework**: [Astro 5](https://astro.build/) (Optimizado para rendimiento estático).
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) (Con soporte nativo para `bg-linear`).
+- **Diseño**: Estética "Urban Luxury" con paleta Dark/Gold (`#050505` / `#D4AF37`).
+- **Tipografía**: `Righteous` (Headings) y `Poppins` (Body).
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📂 Estructura de Componentes
+- `Navbar.astro`: Navegación fluida con soporte para anclas y logo dinámico.
+- `Hero.astro`: Secciones de impacto con banner personalizado y propuesta de valor clara.
+- `ServicesBento.astro`: Grid tipo bento para servicios (Mezcla, Beats, Videoclips).
+- `SocialFeed.astro`: Integración visual de feeds de YouTube e Instagram.
+- `Portfolio.astro`: Galería de trabajos seleccionados y vlogs de estudio.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## 🧞 Comandos
+| Comando | Acción |
+| :--- | :--- |
+| `npm install` | Instala dependencias |
+| `npm run dev` | Inicia servidor de desarrollo en `localhost:4321` |
+| `npm run build` | Compila el sitio para producción en `./dist/` |
+| `npm run preview` | Previsualiza la compilación localmente |
+| `npm run start` | Alias para `npm run preview` |
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🔗 Redes Sociales
+- [Instagram](https://www.instagram.com/antycopyrecord/)
+- [YouTube](https://www.youtube.com/@antycopyrecord)
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+Diseñado con ♥ para la música urbana.

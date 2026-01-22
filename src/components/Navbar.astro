@@ -1,0 +1,104 @@
+---
+
+---
+
+<nav class="fixed top-0 left-0 w-full z-50 px-4 py-4 md:py-6">
+    <div class="max-w-7xl mx-auto">
+        <div
+            class="bg-brand-bg/80 backdrop-blur-md border border-brand-secondary/50 rounded-2xl px-6 py-4 flex items-center justify-between shadow-lg shadow-black/50"
+        >
+            <!-- Logo -->
+            <a
+                href="/"
+                class="text-2xl font-display font-bold text-brand-primary tracking-wide"
+            >
+                ANTYCOPY<span class="text-brand-accent">RECORD</span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a
+                    href="#services"
+                    class="text-brand-accent/80 hover:text-brand-primary transition-colors duration-200 text-sm font-medium uppercase tracking-wider"
+                    >Services</a
+                >
+                <a
+                    href="#beats"
+                    class="text-brand-accent/80 hover:text-brand-primary transition-colors duration-200 text-sm font-medium uppercase tracking-wider"
+                    >Beats</a
+                >
+                <a
+                    href="#portfolio"
+                    class="text-brand-accent/80 hover:text-brand-primary transition-colors duration-200 text-sm font-medium uppercase tracking-wider"
+                    >Portfolio</a
+                >
+                <a
+                    href="#contact"
+                    class="bg-brand-primary text-brand-bg px-6 py-2 rounded-full font-bold hover:bg-white hover:text-brand-bg transition-all duration-300 transform hover:scale-105"
+                >
+                    Book Session
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button
+                id="mobile-menu-btn"
+                class="md:hidden text-brand-accent focus:outline-none"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-8 h-8"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div
+            id="mobile-menu"
+            class="hidden absolute top-full left-0 w-full px-4 mt-2"
+        >
+            <div
+                class="bg-brand-secondary/95 backdrop-blur-xl border border-brand-primary/20 rounded-2xl p-6 flex flex-col space-y-4 shadow-2xl"
+            >
+                <a
+                    href="#services"
+                    class="text-brand-accent text-lg font-medium hover:text-brand-primary"
+                    >Services</a
+                >
+                <a
+                    href="#beats"
+                    class="text-brand-accent text-lg font-medium hover:text-brand-primary"
+                    >Beats</a
+                >
+                <a
+                    href="#portfolio"
+                    class="text-brand-accent text-lg font-medium hover:text-brand-primary"
+                    >Portfolio</a
+                >
+                <a
+                    href="#contact"
+                    class="bg-brand-primary text-brand-bg text-center py-3 rounded-xl font-bold"
+                    >Book Session</a
+                >
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    const btn = document.getElementById("mobile-menu-btn");
+    const menu = document.getElementById("mobile-menu");
+
+    btn?.addEventListener("click", () => {
+        menu?.classList.toggle("hidden");
+    });
+</script>

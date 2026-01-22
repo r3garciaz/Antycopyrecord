@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #050505;
+  --color-brand-primary: #D4AF37;
+  --color-brand-secondary: #1A1A1A;
+  --color-brand-accent: #FFFFFF;
+  --color-brand-muted: #9CA3AF;
+  
+  --font-display: "Righteous", sans-serif;
+  --font-body: "Poppins", sans-serif;
+
+  --animate-fade-in: fade-in 0.5s ease-out forwards;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-accent);
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

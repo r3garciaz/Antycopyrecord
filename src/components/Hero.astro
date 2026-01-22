@@ -7,21 +7,27 @@
 >
     <!-- Background Effects -->
     <div class="absolute inset-0 z-0">
+        <!-- Banner Image -->
+        <img
+            src="/banner.jpg"
+            alt="Studio Banner"
+            class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-overlay"
+        />
         <div
-            class="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-primary/20 rounded-full blur-3xl animate-pulse"
+            class="absolute inset-0 bg-linear-to-b from-brand-bg/90 via-brand-bg/50 to-brand-bg"
+        >
+        </div>
+
+        <div
+            class="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-primary/10 rounded-full blur-3xl animate-pulse"
         >
         </div>
         <div
-            class="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-purple-900/20 rounded-full blur-3xl"
+            class="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-purple-900/10 rounded-full blur-3xl"
         >
         </div>
         <div
             class="absolute inset-0 bg-[url('/noise.png')] opacity-5 mix-blend-overlay"
-        >
-        </div>
-        <!-- Optional noise texture constraint -->
-        <div
-            class="absolute inset-0 bg-linear-to-b from-brand-bg via-transparent to-brand-bg"
         >
         </div>
     </div>
